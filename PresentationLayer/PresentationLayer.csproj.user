@@ -7,7 +7,33 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="WindowsOfEntities\CustomerPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowsOfEntities\SummaryPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowsOfEntities\UnemployedPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowsOfEntities\VacancyPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowsOfEntities\CustomerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowsOfEntities\SummaryPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowsOfEntities\UnemployedPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowsOfEntities\VacancyPage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

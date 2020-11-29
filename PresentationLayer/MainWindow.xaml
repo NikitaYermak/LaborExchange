@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PresentationLayer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Labor Exchange" Height="600" Width="1024">
     <Grid>
-
+        <Frame x:Name="MainFrame" Height="600" Width="1024" HorizontalAlignment="Right"/>
+        <Menu Height="20" VerticalAlignment="Top" Grid.ColumnSpan="2" Background="LightGray">
+            <MenuItem Header="Customer" Click="MenuCustomer_Click" VerticalAlignment="Center"/>
+            <MenuItem Header="Summary" Click="MenuSummary_Click" VerticalAlignment="Center"/>
+            <MenuItem Header="Unemployed" Click="MenuUnemployed_Click" VerticalAlignment="Center"/>
+            <MenuItem Header="Vacancy" Click="MenuVacancy_Click" VerticalAlignment="Center"/>
+        </Menu>
+        <!--<Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Width="400" Height="50" Content="Select the menu item" FontSize="30"/>
+        <Button x:Name="CustomerButton" Grid.Row="1" Width="400" Height="50" Content="Customer" Click="Customer_Click" FontSize="25"/>
+        <Button x:Name="SummaryButton" Grid.Row="2" Width="400" Height="50" Content="Summary" Click="Summary_Click" FontSize="25"/>
+        <Button x:Name="UnemployedButton" Grid.Row="3" Width="400" Height="50" Content="UnemployedPlayer" Click="Unemployed_Click" FontSize="25"/>
+        <Button x:Name="VacancyButton" Grid.Row="4" Width="400" Height="50" Content="VacancyPlayer" Click="Vacancy_Click" FontSize="25"/>-->
     </Grid>
 </Window>
