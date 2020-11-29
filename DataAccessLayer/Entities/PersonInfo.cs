@@ -9,8 +9,9 @@ namespace DataAccessLayer.Entities
         private string name;
         private string lastName;
         private string fatherName;
+        private int id;
 
-        protected PersonInfo(string name, string lastName, string fatherName)
+        public PersonInfo(string name, string lastName, string fatherName)
         {
             this.name = name;
             this.lastName = lastName;
@@ -19,5 +20,6 @@ namespace DataAccessLayer.Entities
         public string Name { get => name; set => name = value; }
         public string LastName { get => lastName; set => lastName = value; }
         public string FatherName { get => fatherName; set => fatherName = value; }
+        public int Id { get => id; set => id = value; }
     }
 }
