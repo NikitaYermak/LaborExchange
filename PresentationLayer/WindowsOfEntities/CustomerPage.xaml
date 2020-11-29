@@ -29,10 +29,10 @@
         <TextBox x:Name="FatherNameBox" materialDesign:HintAssist.Hint="Father Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Row="3" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" />
         <TextBox x:Name="AboutProjectBox" Height="250" Width="300" BorderThickness="1"  AcceptsReturn="True" AcceptsTab="True" materialDesign:HintAssist.Hint="About project" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Row="0" Grid.RowSpan="5" Grid.Column="1" VerticalScrollBarVisibility="Auto"
          HorizontalScrollBarVisibility="Auto"/>
-        <Button Grid.Row="4" Grid.Column="0" Click="ActionsButton" Width="150" HorizontalAlignment="Center" Content="Actions"/>
-        <Button Grid.Row="5" Grid.Column="0" Click="EditButton" IsEnabled="False" Width="150" HorizontalAlignment="Center" Content="Edit"/>
-        <Button Grid.Row="4" Grid.Column="1" Click="AddButton" Width="150" HorizontalAlignment="Center" Content="Add"/>
-        <Button Grid.Row="5" Grid.Column="1" Click="ShowAllButton" Width="150" HorizontalAlignment="Center" Content="Show All"/>
-        <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Click="ClearButton" Width="150" HorizontalAlignment="Center" Content="Clear All"/>
+        <Button Grid.Row="4" Grid.Column="0" Click="ActionsButtonClick" Width="150" HorizontalAlignment="Center" Content="Actions"/>
+        <Button Grid.Row="5" Grid.Column="0" Click="EditButtonClick" IsEnabled="False" Width="150" HorizontalAlignment="Center" Content="Edit"/>
+        <Button Grid.Row="4" Grid.Column="1" Click="AddButtonClick" Width="150" HorizontalAlignment="Center" Content="Add"/>
+        <Button Grid.Row="5" Grid.Column="1" Click="ShowAllButtonClick" Width="150" HorizontalAlignment="Center" Content="Show All"/>
+        <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Click="ClearButtonClick" Width="150" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Clear All"/>
     </Grid>
 </Page>

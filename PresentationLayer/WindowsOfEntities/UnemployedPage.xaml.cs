@@ -22,5 +22,26 @@ namespace PresentationLayer.WindowsOfEntities
         {
             InitializeComponent();
         }
+        private void ActionsButtonClick(object sender, RoutedEventArgs e)
+        {
+            ActionsWindow actionsWindow = new ActionsWindow();
+            actionsWindow.Show();
+        }
+        private void AddButtonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void EditButtonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void ShowAllButtonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void ClearButtonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

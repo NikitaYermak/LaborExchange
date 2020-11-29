@@ -22,24 +22,24 @@ namespace PresentationLayer.WindowsOfEntities
         {
             InitializeComponent();
         }
-        private void ActionsButton(object sender, RoutedEventArgs e) 
+        private void ActionsButtonClick(object sender, RoutedEventArgs e) 
         {
             ActionsWindow actionsWindow = new ActionsWindow();
             actionsWindow.Show();
         }
-        private void AddButton(object sender, RoutedEventArgs e)
+        private void AddButtonClick(object sender, RoutedEventArgs e)
         {
 
         }
-        private void EditButton(object sender, RoutedEventArgs e)
+        private void EditButtonClick(object sender, RoutedEventArgs e)
         {
 
         }
-        private void ShowAllButton(object sender, RoutedEventArgs e)
+        private void ShowAllButtonClick(object sender, RoutedEventArgs e)
         {
 
         }
-        private void ClearButton(object sender, RoutedEventArgs e)
+        private void ClearButtonClick(object sender, RoutedEventArgs e)
         {
 
         }

@@ -4,22 +4,22 @@ using System.Text;
 
 namespace DataAccessLayer.Entities
 {
-    class SummaryClass : PersonInfo
+    public class SummaryClass : PersonInfo
     {
         private string number;
         private string skills;
-        private string experience;
+        private string category;
 
-        public SummaryClass(string number, string skills, string experience, string name, string lastName, string fatherName) 
+        public SummaryClass(string number, string skills, string category, string name, string lastName, string fatherName) 
             : base (name, lastName, fatherName)
         {
             this.number = number;
             this.skills = skills;
-            this.experience = experience;
+            this.category = category;
         }
 
         public string Number { get => number; set => number = value; }
         public string Skills { get => skills; set => skills = value; }
-        public string Experience { get => experience; set => experience = value; }
+        public string Category { get => category; set => category = value; }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DataAccessLayer.Entities
 {
-    abstract class PersonInfo
+    public abstract class PersonInfo
     {
         private string name;
         private string lastName;

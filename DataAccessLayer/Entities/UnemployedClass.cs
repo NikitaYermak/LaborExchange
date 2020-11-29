@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DataAccessLayer.Entities
 {
-    class UnemployedClass : PersonInfo
+    public class UnemployedClass : PersonInfo
     {
         private int age;
         private string specialty;

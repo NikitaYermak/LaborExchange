@@ -17,9 +17,9 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="ID" materialDesign:HintAssist.Hint="ID" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Width="200" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" />
-        <Button Grid.Row="1" Grid.Column="0" Click="ShowButton" Width="80" HorizontalAlignment="Center" Content="Show"/>
-        <Button Grid.Row="1" Grid.Column="1" Click="EditButton" Width="80" HorizontalAlignment="Center" Content="Edit"/>
-        <Button Grid.Row="1" Grid.Column="2" Click="DeleteButton" Width="80" HorizontalAlignment="Center" Content="Delete"/>
+        <TextBox x:Name="IDTextBox" materialDesign:HintAssist.Hint="ID" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Width="200" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <Button x:Name="ShowButton" Grid.Row="1" Grid.Column="0" Click="ShowButtonClick" Width="80" HorizontalAlignment="Center" Content="Show"/>
+        <Button x:Name="EditButton" Grid.Row="1" Grid.Column="1" Click="EditButtonClick" Width="80" HorizontalAlignment="Center" Content="Edit"/>
+        <Button x:Name="DeleteButton" Grid.Row="1" Grid.Column="2" Click="DeleteButtonClick" Width="80" HorizontalAlignment="Center" Content="Delete"/>
     </Grid>
 </Window>

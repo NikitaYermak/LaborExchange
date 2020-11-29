@@ -21,5 +21,17 @@ namespace PresentationLayer
         {
             InitializeComponent();
         }
+        private void EditButtonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void ShowButtonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void DeleteButtonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
