@@ -7,13 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="ActionsWindow.xaml.cs">
+    <Compile Update="WindowsOfEntities\ActionsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowsOfEntities\ButtonsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="WindowsOfEntities\CustomerPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="WindowsOfEntities\SummaryPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="WindowsOfEntities\UnemployedPage.xaml.cs">
@@ -24,16 +24,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="ActionsWindow.xaml">
+    <Page Update="WindowsOfEntities\ActionsWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WindowsOfEntities\CustomerPage.xaml">
+    <Page Update="WindowsOfEntities\ButtonsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WindowsOfEntities\SummaryPage.xaml">
+    <Page Update="WindowsOfEntities\CustomerPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WindowsOfEntities\UnemployedPage.xaml">

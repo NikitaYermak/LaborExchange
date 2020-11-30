@@ -14,11 +14,11 @@ using System.Windows.Shapes;
 namespace PresentationLayer.WindowsOfEntities
 {
     /// <summary>
-    /// Логика взаимодействия для UnemployedPage.xaml
+    /// Логика взаимодействия для ButtonsPage.xaml
     /// </summary>
-    public partial class UnemployedPage : Page
+    public partial class ButtonsPage : Page
     {
-        public UnemployedPage()
+        public ButtonsPage()
         {
             InitializeComponent();
         }

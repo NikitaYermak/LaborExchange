@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Labor Exchange" Height="600" Width="1024">
     <Grid>
-        <Frame x:Name="MainFrame" Height="600" Width="1024" HorizontalAlignment="Right"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Height="400" Width="1024" VerticalAlignment="Top"/>
+        <Frame x:Name="ButtonFrame" NavigationUIVisibility="Hidden" Height="200" Width="1024" VerticalAlignment="Bottom"/>
         <Menu Height="20" VerticalAlignment="Top" Grid.ColumnSpan="2" Background="LightGray">
             <MenuItem Header="Customer" Click="MenuCustomer_Click" VerticalAlignment="Center"/>
             <MenuItem Header="Summary" Click="MenuSummary_Click" VerticalAlignment="Center"/>

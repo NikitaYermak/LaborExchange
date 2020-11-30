@@ -6,14 +6,11 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:PresentationLayer.WindowsOfEntities"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="400" d:DesignWidth="1024"
       Title="SummaryPage">
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
@@ -27,12 +24,9 @@
         <TextBox x:Name="NameBox" materialDesign:HintAssist.Hint="Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Row="1" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" />
         <TextBox x:Name="LastNameBox" materialDesign:HintAssist.Hint="Last Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Row="2" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" />
         <TextBox x:Name="FatherNameBox" materialDesign:HintAssist.Hint="Father Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Row="3" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" />
-        <TextBox x:Name="AboutProjectBox" Height="250" Width="300" BorderThickness="1"  AcceptsReturn="True" AcceptsTab="True" materialDesign:HintAssist.Hint="About project" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Row="0" Grid.RowSpan="5" Grid.Column="1" VerticalScrollBarVisibility="Auto"
+        <TextBox x:Name="AboutProjectNameBox" Height="150" Width="300" BorderThickness="1"  AcceptsReturn="True" AcceptsTab="True" materialDesign:HintAssist.Hint="About project" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Row="0" Grid.RowSpan="3" Grid.Column="1" VerticalScrollBarVisibility="Auto"
          HorizontalScrollBarVisibility="Auto"/>
-        <Button Grid.Row="5" Grid.Column="0" Click="ActionsButtonClick" Width="150" HorizontalAlignment="Center" Content="Actions"/>
-        <Button Grid.Row="6" Grid.Column="0" Click="EditButtonClick" IsEnabled="False" Width="150" HorizontalAlignment="Center" Content="Edit" VerticalAlignment="Top"/>
-        <Button Grid.Row="5" Grid.Column="1" Click="AddButtonClick" Width="150" HorizontalAlignment="Center" Content="Add"/>
-        <Button Grid.Row="6" Grid.Column="1" Click="ShowAllButtonClick" Width="150" HorizontalAlignment="Center" Content="Show All" VerticalAlignment="Top"/>
-        <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Click="ClearButtonClick" Width="150" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Clear All"/>
+        <TextBox x:Name="NumberNameBox" materialDesign:HintAssist.Hint="Number of Phone" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Row="2" Grid.Column="1" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <TextBox x:Name="SpecialNameBox" materialDesign:HintAssist.Hint="Speciality" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Row="3" Grid.Column="1" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" />
     </Grid>
 </Page>

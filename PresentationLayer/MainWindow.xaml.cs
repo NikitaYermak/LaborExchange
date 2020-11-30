@@ -28,18 +28,22 @@ namespace PresentationLayer
         private void MenuCustomer_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new CustomerPage());
+            ButtonFrame.Navigate(new ButtonsPage());
         }
         private void MenuSummary_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new SummaryPage());
+            ButtonFrame.Navigate(new ButtonsPage());
         }
         private void MenuUnemployed_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new UnemployedPage());
+            ButtonFrame.Navigate(new ButtonsPage());
         }
         private void MenuVacancy_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new VacancyPage());
+            ButtonFrame.Navigate(new ButtonsPage());
         }
     }
 }
